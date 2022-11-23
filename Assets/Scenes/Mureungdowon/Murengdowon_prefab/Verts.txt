@@ -1,0 +1,29 @@
+
+Pack1:
+Building2: 3251 Verts / 2950 Faces
+Bench: 92 Verts / 90 Faces
+Fountian: 5,712 Verts / 5,510 Faces
+Vase: 1,792 Verts / 1,666 Faces
+
+PlatformsPack:
+BridgeSteps: 31 Verts / 27 Faces
+HalfBridge: 1,944 Verts / 1,842 Faces
+LargePlatform_ThreeGate: 6,313 Verts / 6,270 Faces
+LargePlatformTwoGate: 6,453 Verts / 6,414 Faces
+LargePlatformTwoGate_1: 6,453 Verts / 6,414 Faces
+
+MediumPlatform_OneGate: 6,453 Verts / 6,414 Faces
+MediumPlatform_TwoGate: 6,453 Verts / 6,414 Faces
+SmallPlatform_TwoGate: 3,677 Verts / 3,701 Faces
+StepPlatform: 224 Verts / 193 Faces
+StepPlatform: 883 Verts / 800 Faces
+
+TowerPack:
+FullBridge: 3,888 Verts / 3,690 Faces
+GemStone: 10 Verts / 16 Faces
+GlassWindow: 8 Verts / 6 Faces
+Tower1: 58,820 Verts / 49,021 Faces
+Tower2: 74,705 Verts / 64,379 Faces 
+Tower3: 74,039 Verts / 63, 757 Faces
+Windows Shutters: 240 Verts / 180 Faces
+Windows Bars: 576 Verts / 306 Faces
