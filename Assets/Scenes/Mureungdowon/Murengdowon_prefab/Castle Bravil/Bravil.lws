@@ -1,0 +1,1216 @@
+LWSC
+3
+
+RenderRangeType 0
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+RenderRangeArbitrary 1-60
+PreviewFirstFrame 0
+PreviewLastFrame 60
+PreviewFrameStep 1
+CurrentFrame 0
+FramesPerSecond 30
+
+LoadObjectLayer 1 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 2 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 3 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 4 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+SubPatchLevel 3 3
+ShadowOptions 7
+
+LoadObjectLayer 5 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 6 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+LoadObjectLayer 7 Buildings/Bravil/Bravil.lwo
+ShowObject 7 3
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ShadowOptions 7
+
+AmbientColor 1 1 1
+AmbientIntensity 0.05
+
+AddLight
+LightName Light
+ShowLight 0 5
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 17032.881 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 53522 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -17817.658 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.32637659 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 1.0646509 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+LightColor 1 1 1
+LightIntensity 1
+AffectCaustics 1
+LightType 0
+ShadowType 1
+ShadowColor 0 0 0
+
+AddLight
+LightName Light2
+ShowLight 0 5
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 22650 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 8850 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -23035 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.63529986 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.16406095 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+LightColor 1 1 1
+LightIntensity 0.3
+LightType 0
+ShadowType 0
+
+AddLight
+LightName Light3
+ShowLight 0 5
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key -9298.8379 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 12475 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -13759.003 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0.95644033 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.45029494 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+LightColor 1 1 1
+LightIntensity 0.3
+LightType 0
+ShadowType 0
+
+AddLight
+LightName Light4
+ShowLight 0 5
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key 6470.7622 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 12730 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 24826.906 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -2.8658311 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.34557518 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+LightColor 1 1 1
+LightIntensity 0.3
+LightType 0
+ShadowType 0
+
+AddCamera
+CameraName Camera
+ShowCamera 0 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 12012.732 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 13090.604 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -61758.703 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.20943952 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.143117 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 1024 768
+PixelAspect 1
+MaskPosition 0 0 1024 768
+MotionBlur 0
+FieldRendering 0
+
+AddCamera
+CameraName Camera2
+ShowCamera 0 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 25121.525 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 29945 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -17771.336 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.97563922 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.66846102 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 1024 768
+PixelAspect 1
+MaskPosition 0 0 1024 768
+MotionBlur 0
+FieldRendering 0
+
+AddCamera
+CameraName Camera3
+ShowCamera 0 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 20333.768 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 8370 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -15373.187 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.879646 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.21118483 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 1024 768
+PixelAspect 1
+MaskPosition 0 0 1024 768
+MotionBlur 0
+FieldRendering 0
+
+AddCamera
+CameraName Camera4
+ShowCamera 0 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 23303.76 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 7170 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -22479.27 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -0.87091929 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.17453294 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 1024 768
+PixelAspect 1
+MaskPosition 0 0 1024 768
+MotionBlur 0
+FieldRendering 0
+
+AddCamera
+CameraName Camera5
+ShowCamera 0 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 11362.281 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 3970 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 13529.288 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key -2.3474681 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.18849564 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 1024 768
+PixelAspect 1
+MaskPosition 0 0 1024 768
+MotionBlur 0
+FieldRendering 0
+
+AddCamera
+CameraName Camera6
+ShowCamera 0 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key -14534.688 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 12880 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -14860.665 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 1.1047934 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.37524581 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 1024 768
+PixelAspect 1
+MaskPosition 0 0 1024 768
+MotionBlur 0
+FieldRendering 0
+
+ApertureHeight 0.015
+Antialiasing 1
+AntiAliasingLevel 1
+ReconstructionFilter 0
+AdaptiveSampling 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 0.1569 0.3137
+SkyColor 0.4706 0.7059 0.9412
+GroundColor 0.1961 0.1569 0.1176
+NadirColor 0.3922 0.3137 0.2353
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+DepthBufferAA 0
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+SaveRGB 0
+SaveAlpha 0
+
+ViewConfiguration 0
+DefineView 0
+ViewType 9
+ViewLevel 4
+ViewAimpoint 0 0 0
+ViewZoomFactor 0.9930925
+
+GridNumber 80
+GridSize 1000
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 0
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0
+
+CurrentObject 6
+CurrentLight 3
+CurrentCamera 0
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}
+ImageEditorData
+NumberOfClips 26
+Clip 0
+{ ClipObject
+  "Rope.jpg"
+  128
+  0
+}
+Clip 1
+{ ClipObject
+  "CASWD1.BMP"
+  128
+  0
+}
+Clip 2
+{ ClipObject
+  "CASWDBP.BMP"
+  128
+  0
+}
+Clip 3
+{ ClipObject
+  "fw12b.jpg"
+  128
+  0
+}
+Clip 4
+{ ClipObject
+  "planks.jpg"
+  128
+  0
+}
+Clip 5
+{ ClipObject
+  "planks02_bump.jpg"
+  128
+  0
+}
+Clip 6
+{ ClipObject
+  "dreckneu2.psd"
+  128
+  0
+}
+Clip 7
+{ ClipObject
+  "StoneWall4+b_kl.jpg"
+  128
+  0
+}
+Clip 8
+{ ClipObject
+  "StoneWall4+kl.jpg"
+  128
+  0
+}
+Clip 9
+{ ClipObject
+  "dachrot1dustkleingraublau.jpg"
+  128
+  0
+}
+Clip 10
+{ ClipObject
+  "stone15.jpg"
+  128
+  0
+}
+Clip 11
+{ ClipObject
+  "arch_stone2.jpg"
+  128
+  0
+}
+Clip 12
+{ ClipObject
+  "arch_stone3.jpg"
+  128
+  0
+}
+Clip 13
+{ ClipObject
+  "CrownTop2.jpg"
+  128
+  0
+}
+Clip 14
+{ ClipObject
+  "WallWalks5.jpg"
+  128
+  0
+}
+Clip 15
+{ ClipObject
+  "TowerLower1.jpg"
+  128
+  0
+}
+Clip 16
+{ ClipObject
+  "TowerLower2.jpg"
+  128
+  0
+}
+Clip 17
+{ ClipObject
+  "Roof1.jpg"
+  128
+  0
+}
+Clip 18
+{ ClipObject
+  "RoofTop3.jpg"
+  128
+  0
+}
+Clip 19
+{ ClipObject
+  "Wood2.jpg"
+  128
+  0
+}
+Clip 20
+{ ClipObject
+  "TowerBuildings.jpg"
+  128
+  0
+}
+Clip 21
+{ ClipObject
+  "WoodEnd.jpg"
+  128
+  0
+}
+Clip 22
+{ ClipObject
+  "dirt_sand.jpg"
+  128
+  0
+}
+Clip 23
+{ ClipObject
+  "water4.jpg"
+  128
+  0
+}
+Clip 24
+{ ClipObject
+  "stain5.jpg"
+  128
+  0
+}
+Clip 25
+{ ClipObject
+  "Wood1.jpg"
+  128
+  0
+}
