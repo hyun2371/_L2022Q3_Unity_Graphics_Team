@@ -7,7 +7,7 @@ public class FPS_Shoot : MonoBehaviour
     public GameObject BulletPrefab; //inspector���� prefab�� drap drop
     public int bulletSpeed = 3000;
     AudioSource Audio;
-    public AudioClip ShootSound;
+    public AudioClip ShootSound,ShotSound;
     public GameObject ShootParticle;
 
     public int MaxHealth = 10;
@@ -35,7 +35,7 @@ public class FPS_Shoot : MonoBehaviour
             Destroy(Bullet, 2f);
 
             InstantiateParticle(ShootParticle);
-            PlayClip(ShootSound);
+                
 
         }
 
@@ -69,13 +69,14 @@ public class FPS_Shoot : MonoBehaviour
     {
         if (other.tag == "Bullet")
         {
+            PlayClip(ShotSound);
             print("Player hit");
             CurrentHealth -= 1;
             healthBar.SetHealth(CurrentHealth);
 
             if (CurrentHealth == 0)
             {
-                
+                GameObject.Find("GameManager").GetComponent<GameManager>().EndGame();
             }
         }
     }
