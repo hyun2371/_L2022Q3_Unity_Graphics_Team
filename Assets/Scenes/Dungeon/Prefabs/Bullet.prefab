@@ -44,7 +44,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.01
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0.004477797}
 --- !u!54 &6402765671820396623
 Rigidbody:
@@ -83,7 +83,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bc804046941d94b62a85b0650271ae8b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.005000001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bc804046941d94b62a85b0650271ae8b, type: 3}
       propertyPath: m_LocalRotation.w
