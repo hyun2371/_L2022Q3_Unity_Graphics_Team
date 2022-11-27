@@ -2405,6 +2405,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6678719967092452334, guid: dc5a673f2b1f5b841897ab23f461de48, type: 3}
   m_PrefabInstance: {fileID: 6678719967326643176}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2124675384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 600138562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2124675385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124675384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109af5dede5604c74a60f89d177296a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlendTexture: {fileID: 2800000, guid: f83909c0947184e2c8024553eb148410, type: 3}
+  blendOpacity: 1
 --- !u!1001 &1297313680435853146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2475,6 +2494,10 @@ PrefabInstance:
     - target: {fileID: 1297313680374431333, guid: a76358dd818d74268be246707afb02de, type: 3}
       propertyPath: m_Name
       value: Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297313680374431333, guid: a76358dd818d74268be246707afb02de, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4627899651903614768, guid: a76358dd818d74268be246707afb02de, type: 3}
       propertyPath: m_Radius
