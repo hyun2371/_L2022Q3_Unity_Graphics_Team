@@ -14,7 +14,7 @@ public class PostEffect_Blood : MonoBehaviour
     void Start()
     {
         myShader = Shader.Find("My/PostEffects/Blood");    // image effect shader file must have been created
-        myMaterial = new Material(myShader);
+        myMaterial = new Material(myShader); //switch the shader and allocate it through this code
     }
 
     private void Update()
