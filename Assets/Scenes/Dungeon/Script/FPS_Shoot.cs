@@ -10,16 +10,10 @@ public class FPS_Shoot : MonoBehaviour
     public AudioClip ShootSound,ShotSound;
     public GameObject ShootParticle;
 
-    public int MaxHealth = 10;
-    public int CurrentHealth;
-    public HealthBar healthBar;
-
 
     // Start is called before the first frame update
     void Start()
     {
-        CurrentHealth = MaxHealth;
-        healthBar.SetMaxHealth(MaxHealth);
         Audio = GameObject.Find("FPS").GetComponent<AudioSource>();
     }
 
@@ -71,13 +65,8 @@ public class FPS_Shoot : MonoBehaviour
         {
             PlayClip(ShotSound);
             print("Player hit");
-            CurrentHealth -= 1;
-            healthBar.SetHealth(CurrentHealth);
+            GameObject.Find("FPSController").GetComponent<ManageLife>().getShot();
 
-            if (CurrentHealth == 0)
-            {
-                GameObject.Find("GameManager").GetComponent<GameManager>().EndGame();
-            }
         }
     }
 
