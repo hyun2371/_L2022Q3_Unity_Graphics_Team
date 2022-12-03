@@ -14140,7 +14140,7 @@ MonoBehaviour:
   ShotSound: {fileID: 8300000, guid: 29c04ba19da834fb0968146ce5e3a847, type: 3}
   ShootParticle: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3, type: 3}
   ShotParticle: {fileID: 1678728823176512, guid: 6a342b4d22c62404baf7bd6057f1bdb3, type: 3}
-  shootInterval: 1
+  shootInterval: 3
 --- !u!65 &737618476
 BoxCollider:
   m_ObjectHideFlags: 0
