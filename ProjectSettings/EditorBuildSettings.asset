@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon/Dungeon.unity
     guid: b72983a2198ba9f499f11ced9860ee60
+  - enabled: 1
+    path: Assets/Scenes/City/City.unity
+    guid: 534543f32f8a0446dba2651a7f9a0b6e
+  - enabled: 1
+    path: Assets/Scenes/Mureungdowon/Mureungdowon.unity
+    guid: 5d1ae5f16877a6748851339786cf5e62
   m_configObjects: {}
