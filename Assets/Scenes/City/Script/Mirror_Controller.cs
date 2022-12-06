@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class Mirror_Controller : MonoBehaviour
 {
 
-    public GameObject text;
-    public GameObject button;
+    public GameObject alert;
+    //public Object SceneToLoad;
 
 
     //isTrigger에 체크했으면 이 함수 써야함
@@ -17,8 +17,7 @@ public class Mirror_Controller : MonoBehaviour
 
 
         //UI text 표시
-        text.SetActive(true);
-        button.SetActive(true);
+        alert.SetActive(true);
 
         //move Scene
         //SceneManager.LoadScene(SceneToLoad.name);
@@ -27,8 +26,7 @@ public class Mirror_Controller : MonoBehaviour
     //collider에서 나간거 감지
     private void OnTriggerExit(Collider other)
     {
-        text.SetActive(false);
-        button.SetActive(false);
+        alert.SetActive(false);
 
     }
 }

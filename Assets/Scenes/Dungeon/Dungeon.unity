@@ -5215,8 +5215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288f7d7116105402f8f17a419b071a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pivot: {fileID: 1136884258}
-  SceneToLoad: {fileID: 102900000, guid: 534543f32f8a0446dba2651a7f9a0b6e, type: 3}
+  alert: {fileID: 0}
 --- !u!65 &394434570
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ public class ManageKey : MonoBehaviour
 
     void DisplayKeyCount(int keyCount)
     {
-        GameObject.Find("KeyValue").GetComponent<Text>().text = keyCount.ToString() + " / 4";
+        GameObject.Find("KeyValue").GetComponent<Text>().text = keyCount.ToString() + " / 2";
 
     }
 }
