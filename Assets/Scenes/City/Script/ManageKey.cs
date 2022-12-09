@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ManageKey : MonoBehaviour
 {
-    int keyCount;
+    public int keyCount;
 
     public void AddKeyCount()
     {

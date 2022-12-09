@@ -5,12 +5,11 @@ using UnityEngine.UI;
 
 public class ManageJewelCount : MonoBehaviour
 {
-    int jewelCount;
+    public int jewelCount;
 
     public void AddJewelCount()
     {
         jewelCount++;
-        print(jewelCount);
         DisplayJewelCount(jewelCount);
 
     }
