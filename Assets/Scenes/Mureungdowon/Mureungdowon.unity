@@ -734,7 +734,8 @@ Transform:
   m_LocalRotation: {x: -0.000000013306916, y: -0.0000000034981469, z: 0.7071068, w: 0.7071067}
   m_LocalPosition: {x: 3.006195, y: -2.1639693, z: -0.000000059604645}
   m_LocalScale: {x: 4.188159, y: 1.6826228, z: 0.67040217}
-  m_Children: []
+  m_Children:
+  - {fileID: 1069253090}
   m_Father: {fileID: 1514320213}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1204,7 +1205,6 @@ GameObject:
   - component: {fileID: 344625871}
   - component: {fileID: 344625870}
   - component: {fileID: 344625869}
-  - component: {fileID: 344625872}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -1270,19 +1270,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &344625872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344625868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 186288970a5a94aae8ad4fb8564093b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObject: {fileID: 0}
 --- !u!1 &390004944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,8 +1618,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.39093, y: 3, z: 13.638062}
-  m_Center: {x: -2.957306, y: 0, z: -4.3982544}
+  m_Size: {x: 2.4257898, y: 3, z: 10.299506}
+  m_Center: {x: -1.474735, y: 0, z: -2.7289758}
 --- !u!1 &483140343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +2022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 186288970a5a94aae8ad4fb8564093b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject: {fileID: 989348594}
+  boat: {fileID: 989348594}
 --- !u!4 &625926888
 Transform:
   m_ObjectHideFlags: 0
@@ -2058,7 +2045,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625573578}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 494.5, y: 31.32, z: 551.9}
+  m_LocalPosition: {x: 504.05, y: 31.32, z: 545.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 625926888}
@@ -2737,6 +2724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989348595}
   - component: {fileID: 989348596}
+  - component: {fileID: 989348597}
   m_Layer: 0
   m_Name: boat (1)
   m_TagString: Untagged
@@ -2779,6 +2767,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &989348597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989348594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee71b40a6d32b4e309ec8859414a578a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1056806411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,12 +2903,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069253089}
-  m_LocalRotation: {x: -1.2813852e-25, y: -0.000000010157579, z: 0.000000014554186, w: 1}
-  m_LocalPosition: {x: 2.9926987, y: 0.37253684, z: 0.38405007}
-  m_LocalScale: {x: 1.5245667, y: 0.31782383, z: 0.03794027}
+  m_LocalRotation: {x: -0.000000026241754, y: 0.000000048644452, z: -0.7071068, w: 0.7071067}
+  m_LocalPosition: {x: 0.6056414, y: 0.00803791, z: 0.57286197}
+  m_LocalScale: {x: 0.9060659, y: 0.075886294, z: 0.0565933}
   m_Children: []
-  m_Father: {fileID: 1514320213}
-  m_RootOrder: 1
+  m_Father: {fileID: 268207427}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1069253091
 MeshRenderer:
@@ -3775,7 +3775,6 @@ Transform:
   m_LocalScale: {x: 1.4587724, y: 1.4587724, z: 1.4587723}
   m_Children:
   - {fileID: 268207427}
-  - {fileID: 1069253090}
   m_Father: {fileID: 989348595}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3817,7 +3816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520379742}
   m_LocalRotation: {x: 0, y: -0.9066763, z: 0, w: 0.42182717}
-  m_LocalPosition: {x: 547.2, y: 31.7, z: 470.9}
+  m_LocalPosition: {x: 545.56, y: 31.7, z: 469.52}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}

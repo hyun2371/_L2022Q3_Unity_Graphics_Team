@@ -5,15 +5,13 @@ using UnityEngine.UIElements;
 
 public class ArriveBoat : StateMachineBehaviour
 {
-    public GameObject player;
-    public GameObject boat;
+
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        player.transform.parent = null;
-        boat.GetComponent<Animator>().SetInteger("State", 0);
-        player.transform.position = new Vector3(547, 31, 456);
-       
+        animator.SetBool("isArrive", true);
+        animator.SetInteger("State", 0);
+
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -22,11 +20,10 @@ public class ArriveBoat : StateMachineBehaviour
     //    
     //}
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        animator.SetBool("isArrive", false);
+    }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

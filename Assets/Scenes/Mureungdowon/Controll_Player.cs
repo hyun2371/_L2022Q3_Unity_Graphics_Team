@@ -1,51 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class Controll_Player : MonoBehaviour
 {
-    public GameObject gameObject;
+    public GameObject boat;
     private bool isRide = false;
 
     private void Update()
     {
         if (isRide)
         {
-            transform.position =new Vector3(gameObject.transform.position.x - 1, gameObject.transform.position.y + 1, gameObject.transform.position.z - 1);
+            transform.position =new Vector3(boat.transform.position.x - 1, boat.transform.position.y + 1, boat.transform.position.z - 1);
         }
-        if (!isRide)
+        if (boat.GetComponent<Animator>().GetBool("isArrive"))
         {
-            transform.parent = null;
+            takeOff();
         }
     }
 
-    //// Start is called before the first frame update
-    //void Start()
-    //{
-    //    target = null;
-    //}
+    private void takeOff()
+    {
+        isRide = false;
+        transform.parent = null;
+        print("finished");
+        boat.GetComponent<Animator>().SetBool("isArrive", false);
+        transform.position = new Vector3(559, 31, 486);
+    }
 
-    //// Update is called once per frame
-    //void LateUpdate()
-    //{
-    //    if (target != null)
-    //    {
-    //        target.transform.position = transform.position + offset;
-    //        target.transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, transform.rotation.y, transform.rotation.z));
-    //    }
-    //}
-
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.tag == "RideTrigger")
-    //    {
-
-    //        boat.GetComponent<Animator>().SetInteger("State", 1);
-    //        target = other.gameObject;
-    //        offset = target.transform.position - transform.position;
-    //    }
-    //}
 
     private void OnTriggerEnter(Collider other)
     {
@@ -53,22 +36,30 @@ public class Controll_Player : MonoBehaviour
         {
             GameObject Parent = other.transform.parent.gameObject;
             transform.parent = Parent.transform;
-            gameObject.GetComponent<Animator>().SetInteger("State", 1);
+            boat.GetComponent<Animator>().SetInteger("State", 1);
             isRide = true;
-            if (other.tag == "Finish")
-            {
-                isRide = false;
-                transform.parent = null;
-                transform.position = new Vector3(547, 31, 456);
-                print("finished");
-            }
+
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "RideTrigger")
+        {
+            transform.position = new Vector3(559, 31, 486);
+            boat.GetComponent<Animator>().SetInteger("State", 0);
+            Invoke("restartBoat", 4f);
+
         }
     }
 
 
+    private void restartBoat()
+    {
+        boat.GetComponent<Animator>().SetBool("isRestart", true);
+    }
 
 
-   
 }
 
 
