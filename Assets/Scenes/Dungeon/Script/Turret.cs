@@ -121,6 +121,22 @@ public class Turret : MonoBehaviour
             RobotHealth--;
             if (RobotHealth == 0)
             {
+                if (gameObject == GameObject.FindGameObjectWithTag("Turret1"))
+                {
+                    GameObject.Find("Jewels").GetComponent<Manage_Jewels>().IsJ1Active = true;
+                }
+                else if (gameObject == GameObject.FindGameObjectWithTag("Turret2"))
+                {
+                    GameObject.Find("Jewels").GetComponent<Manage_Jewels>().IsJ2Active = true;
+                }
+                else if (gameObject == GameObject.FindGameObjectWithTag("Turret3"))
+                {
+                    GameObject.Find("Jewels").GetComponent<Manage_Jewels>().IsJ3Active = true;
+                }
+                else if (gameObject == GameObject.FindGameObjectWithTag("Turret4"))
+                {
+                    GameObject.Find("Jewels").GetComponent<Manage_Jewels>().IsJ4Active = true;
+                }
                 Destroy(gameObject);
                
             }

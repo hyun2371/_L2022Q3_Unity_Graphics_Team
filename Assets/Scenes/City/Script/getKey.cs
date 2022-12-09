@@ -13,7 +13,7 @@ public class getKey : MonoBehaviour
             GameObject.Find("KeyText").GetComponent<ManageKey>().AddKeyCount();
             GameObject.Find("KeyGroup").GetComponent<AudioSource>().Play();
             gameObject.SetActive(false);
-            Destroy(gameObject, 0.5f);
+
         }
     }
 }

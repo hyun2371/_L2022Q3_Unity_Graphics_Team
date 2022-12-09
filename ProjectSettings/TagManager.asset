@@ -8,6 +8,10 @@ TagManager:
   - Enemy
   - Bullet
   - RideTrigger
+  - Turret1
+  - Turret2
+  - Turret3
+  - Turret4
   layers:
   - Default
   - TransparentFX
