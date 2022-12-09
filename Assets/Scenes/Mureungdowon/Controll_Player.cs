@@ -5,7 +5,19 @@ using UnityEngine;
 public class Controll_Player : MonoBehaviour
 {
     public GameObject gameObject;
-   
+    private bool isRide = false;
+
+    private void Update()
+    {
+        if (isRide)
+        {
+            transform.position =new Vector3(gameObject.transform.position.x - 1, gameObject.transform.position.y + 1, gameObject.transform.position.z - 1);
+        }
+        if (!isRide)
+        {
+            transform.parent = null;
+        }
+    }
 
     //// Start is called before the first frame update
     //void Start()
@@ -42,14 +54,21 @@ public class Controll_Player : MonoBehaviour
             GameObject Parent = other.transform.parent.gameObject;
             transform.parent = Parent.transform;
             gameObject.GetComponent<Animator>().SetInteger("State", 1);
+            isRide = true;
+            if (other.tag == "Finish")
+            {
+                isRide = false;
+                transform.parent = null;
+                transform.position = new Vector3(547, 31, 456);
+                print("finished");
+            }
         }
     }
 
 
-    private void OnTriggerExit(Collider other)
-    {
-        transform.parent = null;
-    }
+
+
+   
 }
 
 
