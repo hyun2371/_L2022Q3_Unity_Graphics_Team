@@ -6,6 +6,22 @@ using UnityEngine.UI;
 public class ManageKey : MonoBehaviour
 {
     public int keyCount;
+    public GameObject gateway;
+    public GameObject panel;
+    
+
+    private void Update()
+    {
+        if (keyCount == 2)
+        {
+            gateway.SetActive(true);
+            if (panel != null)
+            {
+                panel.SetActive(true);
+                Invoke("destroyPanel", 3f);
+            }
+        }
+    }
 
     public void AddKeyCount()
     {
@@ -18,5 +34,10 @@ public class ManageKey : MonoBehaviour
     {
         GameObject.Find("KeyValue").GetComponent<Text>().text = keyCount.ToString() + " / 2";
 
+    }
+
+    private void destroyPanel()
+    {
+        Destroy(panel);
     }
 }
