@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Mirror_Controller_City : MonoBehaviour
 {
-    public GameObject obstacle;
+    //public GameObject obstacle;
+    public Object SceneToLoad;
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("City");
+            SceneManager.LoadScene(SceneToLoad.name);
         }
     }
     //private void Update()

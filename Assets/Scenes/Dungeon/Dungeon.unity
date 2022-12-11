@@ -5557,7 +5557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288f7d7116105402f8f17a419b071a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 3962465}
+  SceneToLoad: {fileID: 0}
 --- !u!65 &394434570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13097,7 +13097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.9
+      value: -72.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15496,7 +15496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 275719377908281054, guid: 4b75d7955d09c48b2883efaead13b300, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 154.0982
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 275719377908281054, guid: 4b75d7955d09c48b2883efaead13b300, type: 3}
       propertyPath: m_SizeDelta.y
@@ -15532,11 +15532,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 275719377908281054, guid: 4b75d7955d09c48b2883efaead13b300, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -242
+      value: -158.6
       objectReference: {fileID: 0}
     - target: {fileID: 275719377908281054, guid: 4b75d7955d09c48b2883efaead13b300, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 187
+      value: 175.3
       objectReference: {fileID: 0}
     - target: {fileID: 275719377908281054, guid: 4b75d7955d09c48b2883efaead13b300, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
