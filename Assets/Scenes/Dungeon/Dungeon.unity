@@ -5557,7 +5557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288f7d7116105402f8f17a419b071a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: {fileID: 0}
   obstacle: {fileID: 3962465}
 --- !u!65 &394434570
 BoxCollider:
