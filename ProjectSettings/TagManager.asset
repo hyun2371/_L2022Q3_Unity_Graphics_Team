@@ -12,6 +12,9 @@ TagManager:
   - Turret2
   - Turret3
   - Turret4
+  - lb_bird
+  - lb_groundTarget
+  - lb_perchTarget
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Gamer
   - Water
   - UI
-  - 
+  - Post Process
   - 
   - 
   - 
