@@ -15,15 +15,26 @@ public class Hint : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    //void Update()
+    //{
+    //    if(Input.GetMouseButtonDown(0))
+    //    {
+    //        if (!isOn)
+    //            hint.SetActive(true);
+    //        else
+    //            hint.SetActive(false);
+    //        isOn = !isOn;
+    //    }
+    //}
+
+    public void showHint()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            if (!isOn)
-                hint.SetActive(true);
-            else
-                hint.SetActive(false);
-            isOn = !isOn;
-        }
+        //if (!isOn)
+        //    hint.SetActive(true);
+        //else
+        //    hint.SetActive(false);
+        //isOn = !isOn;
+        hint.SetActive(true);
+
     }
 }

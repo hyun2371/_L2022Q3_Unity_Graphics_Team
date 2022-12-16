@@ -6,7 +6,7 @@ public class IndexSceneController : MonoBehaviour
 {
 
     public GameObject text1;
-    public GameObject text2;
+    //public GameObject text2;
     public bool isOn;
 
     void Start()
@@ -21,13 +21,13 @@ public class IndexSceneController : MonoBehaviour
             if(isOn)
             {
                 text1.SetActive(false);
-                text2.SetActive(false);
+                //text2.SetActive(false);
                 isOn = false;
             }
             else
             {
                 text1.SetActive(true);
-                text2.SetActive(true);
+                //text2.SetActive(true);
                 isOn = true;
             }
         }
