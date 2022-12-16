@@ -5,7 +5,8 @@ using UnityEngine;
 public class IndexSceneController : MonoBehaviour
 {
 
-    public GameObject text;
+    public GameObject text1;
+    public GameObject text2;
     public bool isOn;
 
     void Start()
@@ -19,12 +20,14 @@ public class IndexSceneController : MonoBehaviour
         {
             if(isOn)
             {
-                text.SetActive(false);
+                text1.SetActive(false);
+                text2.SetActive(false);
                 isOn = false;
             }
             else
             {
-                text.SetActive(true);
+                text1.SetActive(true);
+                text2.SetActive(true);
                 isOn = true;
             }
         }

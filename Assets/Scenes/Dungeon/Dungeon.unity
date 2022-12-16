@@ -367,6 +367,90 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7019631341911734565, guid: aa54c27c470c24341825a41c5451fa59, type: 3}
   m_PrefabInstance: {fileID: 7019631341790977377}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &179303194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179303195}
+  - component: {fileID: 179303197}
+  - component: {fileID: 179303196}
+  m_Layer: 5
+  m_Name: IndexText2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &179303195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179303194}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597039452}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 475, y: 149}
+  m_SizeDelta: {x: 2000, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &179303196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179303194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 38
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 150
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1.4
+  m_Text: "\uD0F1\uD06C \uBC30\uCE58-\uC190\uAC00\uD604\n\uCCB4\uB825\uBC14 \uCD94\uAC00
+    \uBC0F \uAD00\uB9AC-\uC190\uAC00\uD604\n\uCD1D \uB9DE\uAE30, \uCD1D\uC3D8\uAE30,
+    \uBCF4\uC11D \uD68D\uB4DD \uC18C\uB9AC-\uC190\uAC00\uD604\n\uD50C\uB808\uC774\uC5B4
+    \uC0AC\uACA9 \uAE30\uB2A5-\uC190\uAC00\uD604\n\uD3EC\uC158 \uAD00\uB9AC-\uC190\uAC00\uD604\n\uBCF4\uC11D
+    \uCD94\uAC00 \uBC0F \uD14D\uC2A4\uD2B8\uB85C \uAC1C\uC218 \uD45C\uC2DC-\uC190\uAC00\uD604\n\uBCF4\uC11D
+    \uBAA8\uB450 \uD68D\uB4DD \uC2DC \uC774\uBCA4\uD2B8 \uCD94\uAC00-\uC190\uAC00\uD604"
+--- !u!222 &179303197
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179303194}
+  m_CullTransparentMesh: 1
 --- !u!1 &244807910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,7 +1418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &597039452
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1347,6 +1431,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 978099432}
+  - {fileID: 179303195}
   m_Father: {fileID: 1397981657}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1367,7 +1452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e21959629261497286d94aa7c693bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 597039451}
+  text1: {fileID: 978099431}
+  text2: {fileID: 179303194}
   isOn: 0
 --- !u!114 &597039454
 MonoBehaviour:
@@ -2043,7 +2129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &978099432
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2060,7 +2146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -457, y: -122}
   m_SizeDelta: {x: 2000, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978099433
@@ -2085,7 +2171,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2100,14 +2186,14 @@ MonoBehaviour:
     \uAC70\uC6B8 \uB9CC\uB4E4\uAE30 - \uAE40\uC608\uC9C0\n\uAC70\uC6B8\uC5D0 \uCDA9\uB3CC\uD310\uB2E8
     \uAE30\uB2A5\uC73C\uB85C \uADFC\uCC98\uC5D0 \uAC00\uBA74 \uC52C \uC804\uD658
     - \uAE40\uC608\uC9C0\n'U' \uB20C\uB7EC\uC11C \uC778\uB371\uC2A4 \uC52C \uB85C\uB4DC
-    - \uAE40\uC608\uC9C0\n3D object - \uAE40\uC608\uC9C0, \uAE40\uC724\uC815, \uD64D\uD61C\uC6D0,
-    \uC190\uAC00\uD604\n'H' \uB20C\uB7EC\uC11C \uD0C8\uCD9C \uBC29\uBC95 \uD45C\uC2DC
-    - \uAE40\uC608\uC9C0\n\uC2DC\uC791\uC2DC \uBC15\uC2A4\uB20C\uB7EC light on -
-    \uAE40\uC724\uC815\n\uC9C0\uD558\uB9F5 \uC81C\uC791 - \uAE40\uC724\uC815\n\uBB38
-    \uCDA9\uB3CC\uD310\uB2E8, \uC560\uB2C8\uB9E4\uC774\uC158 - \uAE40\uC724\uC815\n\uBCF4\uBB3C\uC0C1\uC790
-    \uCDA9\uB3CC\uD310\uB2E8, \uC560\uB2C8\uB9E4\uC774\uC158 - \uAE40\uC724\uC815\n\uC2A4\uD3F0\uC7A5\uC18C,
-    \uC190\uC804\uB4F1 - \uAE40\uC724\uC815\n\uAE38\uC548\uB0B4 light -\uAE40\uC724\uC815\n\uCDA9\uB3CC\uD310\uB2E8
-    --> invert, gray image - \uAE40\uC724\uC815\n"
+    - \uAE40\uC608\uC9C0\n3D object - \uAE40\uC608\uC9C0, \uAE40\uC724\uC815, \uC190\uAC00\uD604\n'H'
+    \uB20C\uB7EC\uC11C \uD0C8\uCD9C \uBC29\uBC95 \uD45C\uC2DC - \uAE40\uC608\uC9C0\n\uC2DC\uC791\uC2DC
+    \uBC15\uC2A4\uB20C\uB7EC light on - \uAE40\uC724\uC815\n\uC9C0\uD558\uB9F5 \uC81C\uC791
+    - \uAE40\uC724\uC815\n\uBB38 \uCDA9\uB3CC\uD310\uB2E8, \uC560\uB2C8\uB9E4\uC774\uC158
+    - \uAE40\uC724\uC815\n\uBCF4\uBB3C\uC0C1\uC790 \uCDA9\uB3CC\uD310\uB2E8, \uC560\uB2C8\uB9E4\uC774\uC158
+    - \uAE40\uC724\uC815\n\uC2A4\uD3F0\uC7A5\uC18C, \uC190\uC804\uB4F1 - \uAE40\uC724\uC815\n\uAE38\uC548\uB0B4
+    light -\uAE40\uC724\uC815\n\uCDA9\uB3CC\uD310\uB2E8 --> invert, gray image -
+    \uAE40\uC724\uC815\n\n"
 --- !u!222 &978099434
 CanvasRenderer:
   m_ObjectHideFlags: 0
