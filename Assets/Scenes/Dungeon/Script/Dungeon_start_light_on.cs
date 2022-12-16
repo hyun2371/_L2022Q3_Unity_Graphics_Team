@@ -17,12 +17,15 @@ public class Dungeon_start_light_on : MonoBehaviour
     public GameObject followlight5;
     public GameObject followlight6;
     public GameObject followlight7;
+    public GameObject opentext;
     bool isOn;
+    bool textOn;
 
     // Start is called before the first frame update
     void Start()
     {
         isOn = false;
+        textOn = true;
         Light1.SetActive(isOn);
         Light2.SetActive(isOn);
         Light3.SetActive(isOn);
@@ -36,6 +39,7 @@ public class Dungeon_start_light_on : MonoBehaviour
         followlight5.SetActive(isOn);
         followlight6.SetActive(isOn);
         followlight7.SetActive(isOn);
+        opentext.SetActive(textOn);
     }
 
     // Update is called once per frame
@@ -44,6 +48,7 @@ public class Dungeon_start_light_on : MonoBehaviour
     {
         print(gameObject.name + "mouse down");
         isOn = !isOn;
+        textOn = !textOn;
         Light1.SetActive(isOn);
         Light2.SetActive(isOn);
         Light3.SetActive(isOn);
@@ -57,6 +62,6 @@ public class Dungeon_start_light_on : MonoBehaviour
         followlight5.SetActive(isOn);
         followlight6.SetActive(isOn);
         followlight7.SetActive(isOn);
-
+        opentext.SetActive(textOn);
     }
 }
