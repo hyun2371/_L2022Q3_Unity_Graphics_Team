@@ -84,7 +84,7 @@ public class Turret : MonoBehaviour
     GameObject InstantiateBullet()
     {
         GameObject Shooter = gameObject; //���� ��ũ��Ʈ�� �Ҵ�Ǵ� object
-        Vector3 ClonePos = Shooter.transform.position + Shooter.transform.forward * 1.4f + Shooter.transform.up*1.3f; //��ġ ����
+        Vector3 ClonePos = Shooter.transform.position + Shooter.transform.forward * 1.4f + Shooter.transform.up*1.1f; //��ġ ����
         Quaternion CloneRot = Shooter.transform.rotation;  //��� ������ �ٶ󺸰� �ִ���
         GameObject Clone = Instantiate(BulletPrefab, ClonePos, CloneRot);
 
