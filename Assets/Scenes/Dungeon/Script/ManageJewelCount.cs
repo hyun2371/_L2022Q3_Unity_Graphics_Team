@@ -6,6 +6,17 @@ using UnityEngine.UI;
 public class ManageJewelCount : MonoBehaviour
 {
     public int jewelCount;
+    public GameObject obstacle;
+    public Text boxText;
+
+    private void Update()
+    {
+        if (jewelCount == 4&& obstacle!=null)
+        {
+            obstacle.SetActive(false);
+            boxText.text = "Go in front of the mirror";
+        }
+    }
 
     public void AddJewelCount()
     {
