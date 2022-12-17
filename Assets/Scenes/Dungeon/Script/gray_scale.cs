@@ -4,15 +4,15 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class gray_scale : MonoBehaviour
 {
-    Shader myShader;        // image effect shader 
-    Material myMaterial;
+    Shader myShader_1;        // image effect shader 
+    Material myMaterial_1;
 
     public float grayScaleAmount = 1.0f;
 
     void Start()
     {
-        myShader = Shader.Find("My/PostEffects/gray_scale");    // image effect shader file must have been created
-        myMaterial = new Material(myShader);
+        myShader_1 = Shader.Find("My/PostEffects/gray_scale");    // image effect shader file must have been created
+        myMaterial_1 = new Material(myShader_1);
     }
 
     private void Update()
@@ -20,18 +20,10 @@ public class gray_scale : MonoBehaviour
         grayScaleAmount = Mathf.Clamp(grayScaleAmount, 0.0f, 1.0f);
     }
 
-    private void OnDisable()
-    {
-        if (myMaterial)
-        {
-            DestroyImmediate(myMaterial);
-        }
-    }
-
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        myMaterial.SetFloat("_GrayScaleAmount", grayScaleAmount);
-        Graphics.Blit(source, destination, myMaterial);
+        myMaterial_1.SetFloat("_GrayScaleAmount", grayScaleAmount);
+        Graphics.Blit(source, destination, myMaterial_1);
     }
 }
 
