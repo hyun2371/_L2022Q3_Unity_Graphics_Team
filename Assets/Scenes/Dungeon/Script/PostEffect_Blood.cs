@@ -22,13 +22,13 @@ public class PostEffect_Blood : MonoBehaviour
         blendOpacity = Mathf.Clamp(blendOpacity, 0.0f, 1.0f);
     }
 
-    private void OnDisable()
-    {
-        if (myMaterial)
-        {
-            DestroyImmediate(myMaterial);
-        }
-    }
+    //private void OnDisable()
+    //{
+    //    if (myMaterial)
+    //    {
+    //        DestroyImmediate(myMaterial);
+    //    }
+    //}
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {

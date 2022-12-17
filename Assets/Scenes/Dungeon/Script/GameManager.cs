@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         Debug.Log("Game Over");
-        GameObject.Find("Turret").SetActive(false);
         EndPanel.SetActive(true);
         Invoke("Restart", 5f);
 

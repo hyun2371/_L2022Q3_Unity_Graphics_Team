@@ -9,6 +9,7 @@ public class FPS_Shoot : MonoBehaviour
     AudioSource Audio;
     public AudioClip ShootSound,ShotSound;
     public GameObject ShootParticle;
+    public GameObject Camera;
 
 
     // Start is called before the first frame update
@@ -68,7 +69,19 @@ public class FPS_Shoot : MonoBehaviour
             GameObject.Find("FPSController").GetComponent<ManageLife>().getShot();
 
         }
+        if (other.tag == "Bullet")
+        {
+            Camera.GetComponent<PostEffect_Blood>().enabled = true;
+        }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        
+        Camera.GetComponent<PostEffect_Blood>().enabled = false;
+
+    }
+
 
     void PlayClip(AudioClip clip)
     {

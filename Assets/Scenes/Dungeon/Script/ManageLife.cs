@@ -41,4 +41,6 @@ public class ManageLife : MonoBehaviour
         CurrentHealth--;
         healthBar.SetHealth(CurrentHealth);
     }
+
+
 }
