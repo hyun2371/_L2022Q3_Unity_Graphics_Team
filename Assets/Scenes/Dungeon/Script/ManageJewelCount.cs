@@ -6,15 +6,22 @@ using UnityEngine.UI;
 public class ManageJewelCount : MonoBehaviour
 {
     public int jewelCount;
-    public GameObject obstacle;
+    public GameObject door_right;
+    public GameObject door_left;
     public Text boxText;
 
     private void Update()
     {
-        if (jewelCount == 4&& obstacle!=null)
+        if (jewelCount == 4)
         {
-            obstacle.SetActive(false);
+            door_right.GetComponent<Animator>().SetBool("isCollected", true);
+            door_left.GetComponent<Animator>().SetBool("isCollected", true);
             boxText.text = "Go in front of the mirror";
+        }
+        else
+        {
+            door_right.GetComponent<Animator>().SetBool("isCollected", false);
+            door_left.GetComponent<Animator>().SetBool("isCollected", false);
         }
     }
 
