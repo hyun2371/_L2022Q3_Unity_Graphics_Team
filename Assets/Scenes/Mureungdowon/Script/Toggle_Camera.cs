@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Toggle_Camera : MonoBehaviour
 {
+    public GameObject camera;
     public GameObject Fps;
     bool isOn;
     public GameObject mention;
@@ -18,6 +19,7 @@ public class Toggle_Camera : MonoBehaviour
             Fps.SetActive(true);
             mention.SetActive(true);
             camera_mention.SetActive(false);
+            camera.SetActive(false);
         }
         else 
         {

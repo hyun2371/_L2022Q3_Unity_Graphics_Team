@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Toggle_MultiPass : MonoBehaviour
 {
+    public GameObject camera;
     public GameObject Multipass_camera;
     bool isOn;
 
@@ -14,6 +15,7 @@ public class Toggle_MultiPass : MonoBehaviour
         if (isOn)
         {
             Multipass_camera.SetActive(true);
+            camera.SetActive(false);
         }
         else
         {

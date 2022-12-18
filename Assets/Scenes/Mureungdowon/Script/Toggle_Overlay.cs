@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Toggle_Overlay : MonoBehaviour
 {
+    public GameObject camera;
     public GameObject Multipass_camera;
     bool isOn;
     public void OnValueChanged()
@@ -14,6 +15,7 @@ public class Toggle_Overlay : MonoBehaviour
         if (isOn)
         {
             Multipass_camera.SetActive(true);
+            camera.SetActive(false);
         }
         else
         {

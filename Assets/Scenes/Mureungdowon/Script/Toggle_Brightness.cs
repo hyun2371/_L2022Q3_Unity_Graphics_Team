@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Toggle_Brightness : MonoBehaviour
 {
+    public GameObject camera;
     public GameObject Brightness_camera;
     bool isOn;
 
@@ -14,6 +15,7 @@ public class Toggle_Brightness : MonoBehaviour
         if (isOn)
         {
             Brightness_camera.SetActive(true);
+            camera.SetActive(false);
         }
         else
         {
