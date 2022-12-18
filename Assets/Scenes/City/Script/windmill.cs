@@ -5,7 +5,8 @@ using UnityEngine;
 public class windmill : MonoBehaviour
 {
     Animator Anim;
-
+    public bool isFirst = true;
+    public GameObject key3;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,11 @@ public class windmill : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
         {
             Anim.speed = 2.0f;
+            if (isFirst)
+            {
+                key3.SetActive(true);
+                isFirst = false;
+            }
         }
         if (Input.GetKey(KeyCode.F))
         {

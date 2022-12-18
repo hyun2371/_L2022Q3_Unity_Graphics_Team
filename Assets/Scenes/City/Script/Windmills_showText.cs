@@ -6,6 +6,14 @@ public class Windmills_showText : MonoBehaviour
 {
     public GameObject panel;
     private bool isFirstEnter = true;
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.K))
+        {
+            panel.SetActive(false);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player" && isFirstEnter == true)
@@ -23,9 +31,4 @@ public class Windmills_showText : MonoBehaviour
         isFirstEnter = true;
     }
 
-    public void closePanel()
-    {
-        print("close Panel");
-        panel.SetActive(false);
-    }
 }

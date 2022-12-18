@@ -12,7 +12,7 @@ public class ManageKey : MonoBehaviour
 
     private void Update()
     {
-        if (keyCount == 2)
+        if (keyCount == 3)
         {
             gateway.SetActive(true);
             if (panel != null)
@@ -32,7 +32,7 @@ public class ManageKey : MonoBehaviour
 
     void DisplayKeyCount(int keyCount)
     {
-        GameObject.Find("KeyValue").GetComponent<Text>().text = keyCount.ToString() + " / 2";
+        GameObject.Find("KeyValue").GetComponent<Text>().text = keyCount.ToString() + " / 3";
 
     }
 
