@@ -16,13 +16,6 @@ public class Multipass : MonoBehaviour
         myMaterial = new Material(myShader);
     }
 
-    private void OnDisable()
-    {
-        if (myMaterial)
-        {
-            DestroyImmediate(myMaterial);
-        }
-    }
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {

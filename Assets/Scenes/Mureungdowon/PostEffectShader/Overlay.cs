@@ -21,14 +21,6 @@ public class Overlay : MonoBehaviour
         blendOpacity = Mathf.Clamp(blendOpacity, 0.0f, 1.0f);
     }
 
-    private void OnDisable()
-    {
-        if (myMaterial)
-        {
-            DestroyImmediate(myMaterial);
-        }
-    }
-
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         myMaterial.SetTexture("_BlendTex", BlendTexture);

@@ -22,13 +22,6 @@ public class Brightness_Contrast_Saturation : MonoBehaviour
         saturation = Mathf.Clamp(saturation, 0.0f, 3.0f);
         contrast = Mathf.Clamp(contrast, 0.0f, 3.0f);
     }
-    private void OnDisable()
-    {
-        if (myMaterial)
-        {
-            DestroyImmediate(myMaterial);
-        }
-    }
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         myMaterial.SetFloat("_Brightness", brightness);
