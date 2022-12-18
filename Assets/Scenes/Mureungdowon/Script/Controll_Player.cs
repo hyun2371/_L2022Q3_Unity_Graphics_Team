@@ -13,6 +13,7 @@ public class Controll_Player : MonoBehaviour
         if (isRide)
         {
             transform.position =new Vector3(boat.transform.position.x - 1, boat.transform.position.y + 1, boat.transform.position.z - 1);
+            transform.rotation = new Quaternion(boat.transform.eulerAngles.x, boat.transform.eulerAngles.y, boat.transform.eulerAngles.z,1);
         }
         if (boat.GetComponent<Animator>().GetBool("isArrive"))
         {
@@ -48,7 +49,7 @@ public class Controll_Player : MonoBehaviour
         {
             transform.position = new Vector3(559, 31, 486);
             boat.GetComponent<Animator>().SetInteger("State", 0);
-            Invoke("restartBoat", 4f);
+            Invoke("restartBoat", 10f);
 
         }
     }
