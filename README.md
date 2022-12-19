@@ -1,5 +1,6 @@
 # _L2022Q3_Unity_Graphics_Team
 컴퓨터 그래픽 기말 프로젝트 <br/><br/>
+시연 동영상 https://drive.google.com/file/d/1BSV1DirLiAiNvCsdEbTwEh4_A8AQSzFl/view?usp=sharing
 
 <h3>컨셉</h3>
 <br/>
