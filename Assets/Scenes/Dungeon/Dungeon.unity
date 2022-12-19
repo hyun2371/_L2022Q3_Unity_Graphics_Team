@@ -511,7 +511,7 @@ MonoBehaviour:
     \uCD94\uAC00 \uBC0F \uD14D\uC2A4\uD2B8\uB85C \uAC1C\uC218 \uD45C\uC2DC-\uC190\uAC00\uD604\n\uBCF4\uC11D
     \uBAA8\uB450 \uD68D\uB4DD \uC2DC \uC774\uBCA4\uD2B8 \uCD94\uAC00-\uC190\uAC00\uD604\n\uBCF4\uBB3C\uC0C1\uC790
     \uC5F4\uB838\uC744 \uB54C \uD328\uB110 \uB744\uC6C0-\uC190\uAC00\uD604\n\uCD1D
-    \uB9DE\uC558\uC744 \uB54C blend image effect shader-\uC190\uAC00"
+    \uB9DE\uC558\uC744 \uB54C blend image effect shader-\uC190\uAC00\uD604"
 --- !u!222 &179303197
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1488,6 +1488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text1: {fileID: 978099431}
+  text2: {fileID: 179303194}
   isOn: 0
 --- !u!114 &597039454
 MonoBehaviour:
