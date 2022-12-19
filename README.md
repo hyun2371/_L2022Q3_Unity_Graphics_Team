@@ -10,9 +10,14 @@
 <img width="748" alt="image" src="https://user-images.githubusercontent.com/77109954/208384538-bf92c48b-80ac-4231-ac95-021fdf8e517c.png">
 <img width="1108" alt="image" src="https://user-images.githubusercontent.com/77109954/208384572-c3d0d89b-b41f-4b75-8060-e274ef13369e.png">
 
+
+
 [지상]
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/77109954/208385161-99964814-0132-4f5d-993d-402a38c76a6e.png">
 <img width="1002" alt="image" src="https://user-images.githubusercontent.com/77109954/208384776-60375095-dd97-4647-856c-e53c291eccfd.png">
-<img width="1076" alt="image" src="https://user-images.githubusercontent.com/77109954/208383850-c67f1d92-8fad-4ee1-a337-6fd62081516f.png">
+
+
+
 
 [천상]
 <img width="1086" alt="image" src="https://user-images.githubusercontent.com/77109954/208383889-d25255da-ce56-4701-90e0-f998957a8697.png">
